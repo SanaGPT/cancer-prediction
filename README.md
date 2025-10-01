@@ -1,32 +1,28 @@
-#Cancer Prediction Desktop Application
+# Cancer Prediction Desktop Application
+Title: Cancer Prediction Using Machine Learning (Synthetic Data Demonstration)
 
-A desktop application that uses a PyTorch neural network to predict cancer diagnosis based on patient data. The model is trained on synthetic medical data with comprehensive data cleaning and preprocessing.
+Overview:
+This project demonstrates how machine learning models can be applied to cancer risk prediction tasks. Important: the current dataset is synthetic and only illustrates methodology — it is not suitable for clinical decision-making.
 
-Features :
-GUI Interface: User-friendly desktop app built with tkinter
+Approach:
+Data preprocessing and feature engineering
 
-Machine Learning: Neural network model using PyTorch
+Logistic regression, random forest, and gradient boosting models
 
-Data Pipeline: Automated data cleaning and preprocessing
+Evaluation using accuracy, precision, recall, F1-score
 
-Exploratory Analysis: Data storytelling and insights from synthetic medical records
+Results:
+Gradient boosting achieved the highest performance (~92% on test set).
 
-Requirements :
-tkinter
+Ethics & Limitations
 
-Pandas
+Dataset is artificial and intended purely for demonstration
 
-Pytorch
+No clinical deployment; project illustrates ML pipeline design
 
-Numpy
+Future work: integration with verified biomedical datasets
 
-Faker
+Impact:
+The project highlights the importance of explainable, reproducible ML for medicine, even at an experimental level.
 
-Random
-
-Usage:
-Run the application and input patient information through the GUI to get cancer prediction results based on the trained ML model.
-
-story behind it : 
-I coded this as the primary significant supervised learning project of mine
 
